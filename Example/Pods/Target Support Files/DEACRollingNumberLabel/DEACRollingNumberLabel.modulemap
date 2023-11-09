@@ -1,0 +1,6 @@
+framework module DEACRollingNumberLabel {
+  umbrella header "DEACRollingNumberLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

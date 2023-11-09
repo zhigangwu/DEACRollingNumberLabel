@@ -1,0 +1,6 @@
+framework module Pods_DEACRollingNumberLabel_Tests {
+  umbrella header "Pods-DEACRollingNumberLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
