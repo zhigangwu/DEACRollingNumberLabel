@@ -1,5 +1,5 @@
 PODS:
-  - DEACRollingNumberLabel (0.1.0)
+  - DEACRollingNumberLabel (1.0.0)
 
 DEPENDENCIES:
   - DEACRollingNumberLabel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DEACRollingNumberLabel: bcfef36c97f7a80612bed334db42bcfffc9bf599
+  DEACRollingNumberLabel: ddeec19db7f5fd24748b89f46189d1e87f600d8e
 
 PODFILE CHECKSUM: 790ba6e62bfb605e800ee924e7162d2dfb6077e9
 

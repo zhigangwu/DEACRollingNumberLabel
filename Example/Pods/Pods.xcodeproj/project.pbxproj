@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		11F0AB05886358B4B2BD7437D741A8A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E124E507C79E40D285DE5E179EB31F5 /* DEACRollingNumberLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FBE1101CCF601C8EFC3B3BD902DBAA /* DEACRollingNumberLabel-dummy.m */; };
 		220AF80C6FAB4946DB237062B519FF24 /* Pods-DEACRollingNumberLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 371B0A0804E889FED5D637A2F573A138 /* Pods-DEACRollingNumberLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7045A8A73A7D0A0948DB2621402ADB0A /* Pods-DEACRollingNumberLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96568448A9BADEC67712C0575960D351 /* Pods-DEACRollingNumberLabel_Example-dummy.m */; };
 		7CBD408454735D2936F2CCBDD318F6CD /* Pods-DEACRollingNumberLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E0E1F62C01CBAB5FD8A28AB1E58EE /* Pods-DEACRollingNumberLabel_Tests-dummy.m */; };
 		998548E4314FA35A67AF354ABC1E7CA4 /* Pods-DEACRollingNumberLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E400663A2DF9A7E11F6CE16B0AFE19A1 /* Pods-DEACRollingNumberLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56B1151D9113C41113FDD0EE59258B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B667DD43C9FEA9CF6B4A816AC2348004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D6DA97805D446DE4B3E53A1753498381 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E2AD9590D0F8E187AC0E2C07E38CF /* ReplaceMe.swift */; };
-		F5B8769708DD91422E2C09E8643B4780 /* DEACRollingNumberLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50588B59B9DF7B5B23E4B8E87BF25AB1 /* DEACRollingNumberLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBA0802A4E7461730FC3045F2334C7DE /* DEACRollingNumberLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68F5F28707CF45F0CC3F6251A4D17D7 /* DEACRollingNumberLabel-dummy.m */; };
+		BA1FA530D5F53C17440EBDC8BDF1E8EC /* DEACRollingNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9C70C3AF9EC97737335A8737A2E2A /* DEACRollingNumberLabel.swift */; };
+		F5B8769708DD91422E2C09E8643B4780 /* DEACRollingNumberLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE8C509112F140AB324940BCCCBD2E /* DEACRollingNumberLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +38,37 @@
 
 /* Begin PBXFileReference section */
 		17182F857F93C6B715DD5FDC6178FA8D /* Pods-DEACRollingNumberLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1903480FF0C351112FCBCBE0407B21EB /* DEACRollingNumberLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DEACRollingNumberLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		1E4E0CEEE40EF9FC4B695B966DF5ACCC /* DEACRollingNumberLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACRollingNumberLabel.release.xcconfig; sourceTree = "<group>"; };
+		1B063769B4DCBBD8ABE2259554B1F14E /* DEACRollingNumberLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DEACRollingNumberLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		210242F1BE9D8ADEC4B2D41173A9A753 /* Pods-DEACRollingNumberLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DEACRollingNumberLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26C9C70C3AF9EC97737335A8737A2E2A /* DEACRollingNumberLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DEACRollingNumberLabel.swift; path = DEACRollingNumberLabel/Classes/DEACRollingNumberLabel.swift; sourceTree = "<group>"; };
 		28B5993E19C6045B8A1895F25F53D723 /* Pods-DEACRollingNumberLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACRollingNumberLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AD26633EC0DE1D424E783818AAC5E04 /* Pods-DEACRollingNumberLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACRollingNumberLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2ADF1709F67748D8FD98D8BA82AFD230 /* Pods-DEACRollingNumberLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		30BB4C587A144C9336CEEC77D7ECFF84 /* Pods-DEACRollingNumberLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACRollingNumberLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		321973399605A14E3D038403B57C938B /* Pods-DEACRollingNumberLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACRollingNumberLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		371B0A0804E889FED5D637A2F573A138 /* Pods-DEACRollingNumberLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DEACRollingNumberLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		410F485A7B57A6EEA18BE5E5B3561B15 /* DEACRollingNumberLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DEACRollingNumberLabel-Info.plist"; sourceTree = "<group>"; };
 		43669F06E3ED463AF04E6D868C2FFAA9 /* Pods-DEACRollingNumberLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACRollingNumberLabel_Tests-Info.plist"; sourceTree = "<group>"; };
 		44A503F17CBE11669F302A30B4473FC9 /* Pods-DEACRollingNumberLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45BE0A85DC1944984180D31D95688ED8 /* DEACRollingNumberLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACRollingNumberLabel-prefix.pch"; sourceTree = "<group>"; };
 		470E9279BF80A56C621DD0515A039FF9 /* Pods-DEACRollingNumberLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DEACRollingNumberLabel_Example.modulemap"; sourceTree = "<group>"; };
-		50588B59B9DF7B5B23E4B8E87BF25AB1 /* DEACRollingNumberLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACRollingNumberLabel-umbrella.h"; sourceTree = "<group>"; };
-		55378EC60B390601EB684FAC9043ACA1 /* DEACRollingNumberLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACRollingNumberLabel-prefix.pch"; sourceTree = "<group>"; };
+		4DCF0BBFB7CFE54C6DF11B8325F59D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		72B9FBDD356BCD18AE69BA9F40A05260 /* Pods-DEACRollingNumberLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACRollingNumberLabel_Example"; path = Pods_DEACRollingNumberLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A6E2AD9590D0F8E187AC0E2C07E38CF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DEACRollingNumberLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		96568448A9BADEC67712C0575960D351 /* Pods-DEACRollingNumberLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DEACRollingNumberLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		98AFA6C79D72E0A992D871164AFBD3B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9995D0CBA90B59477954171823D01A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9AE48F31C7DECF0D7E29A63A90010915 /* Pods-DEACRollingNumberLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACRollingNumberLabel_Tests"; path = Pods_DEACRollingNumberLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B169F4E0C38034F25850EEF03726F8AE /* DEACRollingNumberLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACRollingNumberLabel.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC54A856794DAE450914CBD056270002 /* DEACRollingNumberLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACRollingNumberLabel.modulemap; sourceTree = "<group>"; };
+		AEAD8CEBC09D8815BB0ED901BFDDB709 /* DEACRollingNumberLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACRollingNumberLabel.debug.xcconfig; sourceTree = "<group>"; };
 		C6017F4778CC1777EFECC0AD4FF1B535 /* DEACRollingNumberLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DEACRollingNumberLabel; path = DEACRollingNumberLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C68F5F28707CF45F0CC3F6251A4D17D7 /* DEACRollingNumberLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DEACRollingNumberLabel-dummy.m"; sourceTree = "<group>"; };
-		CB072566B97A6C11BC9CED6FB3F0A159 /* DEACRollingNumberLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACRollingNumberLabel.modulemap; sourceTree = "<group>"; };
 		CEC84F718234741D49B5490570D32F4A /* Pods-DEACRollingNumberLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC6FEE76E2F2CC23C63097C8D36294A /* DEACRollingNumberLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACRollingNumberLabel.release.xcconfig; sourceTree = "<group>"; };
 		D36E0E1F62C01CBAB5FD8A28AB1E58EE /* Pods-DEACRollingNumberLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DEACRollingNumberLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		D5F0F5873C38228E879C471AB66A901B /* Pods-DEACRollingNumberLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACRollingNumberLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E400663A2DF9A7E11F6CE16B0AFE19A1 /* Pods-DEACRollingNumberLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DEACRollingNumberLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		F810C93B2C6609ACCA4437209E688A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA0C424B163874FE719EF3B8FA7A2DD8 /* DEACRollingNumberLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DEACRollingNumberLabel-Info.plist"; sourceTree = "<group>"; };
+		ECBE8C509112F140AB324940BCCCBD2E /* DEACRollingNumberLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACRollingNumberLabel-umbrella.h"; sourceTree = "<group>"; };
+		F0FBE1101CCF601C8EFC3B3BD902DBAA /* DEACRollingNumberLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DEACRollingNumberLabel-dummy.m"; sourceTree = "<group>"; };
 		F8758E695E60BA597E6802CBEA342A14 /* Pods-DEACRollingNumberLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DEACRollingNumberLabel_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,30 +133,15 @@
 			path = "Target Support Files/Pods-DEACRollingNumberLabel_Example";
 			sourceTree = "<group>";
 		};
-		32A80155CAF0D03D6A3D521D4502A504 /* DEACRollingNumberLabel */ = {
+		389DAE5492A4F01F104814310D10472A /* DEACRollingNumberLabel */ = {
 			isa = PBXGroup;
 			children = (
-				7A6E2AD9590D0F8E187AC0E2C07E38CF /* ReplaceMe.swift */,
-				E6F61F0DE7F8846E17008FC8C9D87579 /* Pod */,
-				38F51E5C53E7E17F07DA19F16EC63992 /* Support Files */,
+				26C9C70C3AF9EC97737335A8737A2E2A /* DEACRollingNumberLabel.swift */,
+				F16B4B5BA04689207E4C547D5BEFFC87 /* Pod */,
+				B639EA7550F6858BF47A25896E236B3B /* Support Files */,
 			);
 			name = DEACRollingNumberLabel;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		38F51E5C53E7E17F07DA19F16EC63992 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB072566B97A6C11BC9CED6FB3F0A159 /* DEACRollingNumberLabel.modulemap */,
-				C68F5F28707CF45F0CC3F6251A4D17D7 /* DEACRollingNumberLabel-dummy.m */,
-				410F485A7B57A6EEA18BE5E5B3561B15 /* DEACRollingNumberLabel-Info.plist */,
-				55378EC60B390601EB684FAC9043ACA1 /* DEACRollingNumberLabel-prefix.pch */,
-				50588B59B9DF7B5B23E4B8E87BF25AB1 /* DEACRollingNumberLabel-umbrella.h */,
-				B169F4E0C38034F25850EEF03726F8AE /* DEACRollingNumberLabel.debug.xcconfig */,
-				1E4E0CEEE40EF9FC4B695B966DF5ACCC /* DEACRollingNumberLabel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DEACRollingNumberLabel";
 			sourceTree = "<group>";
 		};
 		561CAFC7CA40EB72204E9E65AFEF2E73 /* Targets Support Files */ = {
@@ -179,9 +164,24 @@
 		8A639FC9EAE08A718A97A4E0A58A15ED /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32A80155CAF0D03D6A3D521D4502A504 /* DEACRollingNumberLabel */,
+				389DAE5492A4F01F104814310D10472A /* DEACRollingNumberLabel */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B639EA7550F6858BF47A25896E236B3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC54A856794DAE450914CBD056270002 /* DEACRollingNumberLabel.modulemap */,
+				F0FBE1101CCF601C8EFC3B3BD902DBAA /* DEACRollingNumberLabel-dummy.m */,
+				EA0C424B163874FE719EF3B8FA7A2DD8 /* DEACRollingNumberLabel-Info.plist */,
+				45BE0A85DC1944984180D31D95688ED8 /* DEACRollingNumberLabel-prefix.pch */,
+				ECBE8C509112F140AB324940BCCCBD2E /* DEACRollingNumberLabel-umbrella.h */,
+				AEAD8CEBC09D8815BB0ED901BFDDB709 /* DEACRollingNumberLabel.debug.xcconfig */,
+				CFC6FEE76E2F2CC23C63097C8D36294A /* DEACRollingNumberLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DEACRollingNumberLabel";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -203,12 +203,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6F61F0DE7F8846E17008FC8C9D87579 /* Pod */ = {
+		F16B4B5BA04689207E4C547D5BEFFC87 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1903480FF0C351112FCBCBE0407B21EB /* DEACRollingNumberLabel.podspec */,
-				98AFA6C79D72E0A992D871164AFBD3B1 /* LICENSE */,
-				F810C93B2C6609ACCA4437209E688A3A /* README.md */,
+				1B063769B4DCBBD8ABE2259554B1F14E /* DEACRollingNumberLabel.podspec */,
+				9995D0CBA90B59477954171823D01A7B /* LICENSE */,
+				4DCF0BBFB7CFE54C6DF11B8325F59D18 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildConfigurationList = B05D2E1626F1DFB82C4FCE3D9C6D38E4 /* Build configuration list for PBXNativeTarget "DEACRollingNumberLabel" */;
 			buildPhases = (
 				935426704EEBE794229D522E8CD081E4 /* Headers */,
-				1138D24CF42B9DCB0C29BFECC4C7174B /* Sources */,
+				A127B9A0214423EF3564AD84BC85335D /* Sources */,
 				A90D7B6EAEA82AEC2C7DC76CCEA60E22 /* Frameworks */,
 				05EF762BF088DF51DA8DD6613770274E /* Resources */,
 			);
@@ -363,12 +363,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1138D24CF42B9DCB0C29BFECC4C7174B /* Sources */ = {
+		A127B9A0214423EF3564AD84BC85335D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA0802A4E7461730FC3045F2334C7DE /* DEACRollingNumberLabel-dummy.m in Sources */,
-				D6DA97805D446DE4B3E53A1753498381 /* ReplaceMe.swift in Sources */,
+				BA1FA530D5F53C17440EBDC8BDF1E8EC /* DEACRollingNumberLabel.swift in Sources */,
+				1E124E507C79E40D285DE5E179EB31F5 /* DEACRollingNumberLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,9 +474,9 @@
 			};
 			name = Release;
 		};
-		3CFBD86C9563A3F186E50CAFB65D2A9E /* Release */ = {
+		487F01AB442B7287AE56F1698DC9C904 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E4E0CEEE40EF9FC4B695B966DF5ACCC /* DEACRollingNumberLabel.release.xcconfig */;
+			baseConfigurationReference = AEAD8CEBC09D8815BB0ED901BFDDB709 /* DEACRollingNumberLabel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -490,7 +490,38 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel.modulemap";
+				PRODUCT_MODULE_NAME = DEACRollingNumberLabel;
+				PRODUCT_NAME = DEACRollingNumberLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E346C39409691607283D76F6FE84C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC6FEE76E2F2CC23C63097C8D36294A /* DEACRollingNumberLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel.modulemap";
 				PRODUCT_MODULE_NAME = DEACRollingNumberLabel;
@@ -561,7 +592,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -627,37 +659,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3F24C8E15A8FA60C8454014D43B4B24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B169F4E0C38034F25850EEF03726F8AE /* DEACRollingNumberLabel.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DEACRollingNumberLabel/DEACRollingNumberLabel.modulemap";
-				PRODUCT_MODULE_NAME = DEACRollingNumberLabel;
-				PRODUCT_NAME = DEACRollingNumberLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -763,8 +764,8 @@
 		B05D2E1626F1DFB82C4FCE3D9C6D38E4 /* Build configuration list for PBXNativeTarget "DEACRollingNumberLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3F24C8E15A8FA60C8454014D43B4B24 /* Debug */,
-				3CFBD86C9563A3F186E50CAFB65D2A9E /* Release */,
+				487F01AB442B7287AE56F1698DC9C904 /* Debug */,
+				7E346C39409691607283D76F6FE84C3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

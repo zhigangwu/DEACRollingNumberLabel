@@ -1,22 +1,22 @@
 {
   "name": "DEACRollingNumberLabel",
-  "version": "0.1.0",
-  "summary": "A short description of DEACRollingNumberLabel.",
+  "version": "1.0.0",
+  "summary": "About the number scrolling component",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/12740181/DEACRollingNumberLabel",
+  "homepage": "https://github.com/zhigangwu/DEACRollingNumberLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "12740181": "1402832352@qq.com"
+    "zhigangwu": "1402832352@qq.com"
   },
   "source": {
-    "git": "https://github.com/12740181/DEACRollingNumberLabel.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zhigangwu/DEACRollingNumberLabel.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "DEACRollingNumberLabel/Classes/**/*"
 }
