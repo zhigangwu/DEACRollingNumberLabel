@@ -7,20 +7,21 @@
 //
 
 import UIKit
+import DEACRollingNumberLabel
 
 class ViewController: UIViewController {
     
-//    let rollingNumberLabel = DEACRollingNumberLabel()
+    let rollingNumberLabel = DEACRollingNumberLabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
-//        rollingNumberLabel.frame = CGRect(x: 100, y: 200, width: 50, height: 25)
-//        rollingNumberLabel.text_font = UIFont.systemFont(ofSize: 22, weight: .medium)
-//        rollingNumberLabel.text_color = .red
-//        self.view.addSubview(rollingNumberLabel)
-//        rollingNumberLabel.initBasicValue(default_value: "234", scrollMode: .Individual)
+        rollingNumberLabel.frame = CGRect(x: 100, y: 200, width: 50, height: 25)
+        rollingNumberLabel.text_font = UIFont.systemFont(ofSize: 22, weight: .medium)
+        rollingNumberLabel.text_color = .red
+        self.view.addSubview(rollingNumberLabel)
+        rollingNumberLabel.initBasicValue(default_value: "234", scrollMode: .Individual)
         
         let addButton = UIButton(frame: CGRect(x: 100, y: 300, width: 60, height: 25))
         addButton.setTitle("+1", for: .normal)

@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum DEACScrollMode {
+public enum DEACScrollMode {
     case Together // 多个滚动
     case Individual // 单独滚动
 }
@@ -24,13 +24,13 @@ public class DEACRollingNumberLabel: UIView {
     let scrollLabelView = ScrollLabelView()
     var current_value : String?
     
-    var text_font : UIFont? {
+    public var text_font : UIFont? {
         didSet {
             scrollLabelView.currentLabel_Font = text_font ?? UIFont.systemFont(ofSize: 16, weight: .medium)
         }
     }
     
-    var text_color : UIColor? = nil {
+    public var text_color : UIColor? = nil {
         didSet {
             if text_color == nil {
                 scrollLabelView.currentLabel_Color = .black
@@ -45,7 +45,7 @@ public class DEACRollingNumberLabel: UIView {
     
     }
     
-    func initBasicValue(default_value : String, scrollMode : DEACScrollMode) {
+    public func initBasicValue(default_value : String, scrollMode : DEACScrollMode) {
         self.scrollMode = scrollMode
         self.current_value = default_value
         self.setNeedsLayout()

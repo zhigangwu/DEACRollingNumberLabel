@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		17182F857F93C6B715DD5FDC6178FA8D /* Pods-DEACRollingNumberLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B063769B4DCBBD8ABE2259554B1F14E /* DEACRollingNumberLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DEACRollingNumberLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B063769B4DCBBD8ABE2259554B1F14E /* DEACRollingNumberLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DEACRollingNumberLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		210242F1BE9D8ADEC4B2D41173A9A753 /* Pods-DEACRollingNumberLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DEACRollingNumberLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		26C9C70C3AF9EC97737335A8737A2E2A /* DEACRollingNumberLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DEACRollingNumberLabel.swift; path = DEACRollingNumberLabel/Classes/DEACRollingNumberLabel.swift; sourceTree = "<group>"; };
 		28B5993E19C6045B8A1895F25F53D723 /* Pods-DEACRollingNumberLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACRollingNumberLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 		44A503F17CBE11669F302A30B4473FC9 /* Pods-DEACRollingNumberLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACRollingNumberLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45BE0A85DC1944984180D31D95688ED8 /* DEACRollingNumberLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACRollingNumberLabel-prefix.pch"; sourceTree = "<group>"; };
 		470E9279BF80A56C621DD0515A039FF9 /* Pods-DEACRollingNumberLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DEACRollingNumberLabel_Example.modulemap"; sourceTree = "<group>"; };
-		4DCF0BBFB7CFE54C6DF11B8325F59D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4DCF0BBFB7CFE54C6DF11B8325F59D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72B9FBDD356BCD18AE69BA9F40A05260 /* Pods-DEACRollingNumberLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACRollingNumberLabel_Example"; path = Pods_DEACRollingNumberLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		96568448A9BADEC67712C0575960D351 /* Pods-DEACRollingNumberLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DEACRollingNumberLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		9995D0CBA90B59477954171823D01A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9995D0CBA90B59477954171823D01A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9AE48F31C7DECF0D7E29A63A90010915 /* Pods-DEACRollingNumberLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACRollingNumberLabel_Tests"; path = Pods_DEACRollingNumberLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC54A856794DAE450914CBD056270002 /* DEACRollingNumberLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACRollingNumberLabel.modulemap; sourceTree = "<group>"; };
 		AEAD8CEBC09D8815BB0ED901BFDDB709 /* DEACRollingNumberLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACRollingNumberLabel.debug.xcconfig; sourceTree = "<group>"; };
 		C6017F4778CC1777EFECC0AD4FF1B535 /* DEACRollingNumberLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DEACRollingNumberLabel; path = DEACRollingNumberLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -592,8 +592,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
