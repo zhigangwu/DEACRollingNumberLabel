@@ -17,12 +17,14 @@ DEACRollingNumberLabel is available through [CocoaPods](https://cocoapods.org). 
 it, simply add the following line to your Podfile:
 
 ```ruby
+source  'https://github.com/zhigangwu/AnimationCollectionSpec.git'
+
 pod 'DEACRollingNumberLabel'
 ```
 
 ## Author
 
-12740181, 1402832352@qq.com
+Ryan, 1402832352@qq.com
 
 ## License
 
